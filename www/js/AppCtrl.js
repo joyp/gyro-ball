@@ -21,38 +21,38 @@
 
      // Initialize the app by calling all init functions
      $scope.appInit = function(){
-          // Initialize game
-          Game.init();
+        Game.init();
 
-          // Initialize boundaries
-          Boundaries.init({
-            margin: 10
-          });
+        // Initialize boundaries
+//        Boundaries.init({
+//          margin: 10
+//        });
 
-          // Initialize target/hole
-          Target.init({
-            size: 50,
-            xPos: 100,
-            yPos: 50
-          });
+        // Initialize target/hole
+//        Target.init({
+// Change these to random once working
+//          size: 50,
+//          xPos: 100,
+//          yPos: 50
+//        });
 
-          // Initialize ball
-          Ball.init({
-            size: 20,
-            xPos: Game.playground.width - 30,
-            yPos: Game.playground.height - 30
-          });
+        // Initialize ball
+        Ball.init({
+          size: 20,
+          xPos: Game.playground.width - 30,
+          yPos: Game.playground.height - 30
+        });
 
-          // Lock Screen Orientation to Portrait
-          ScreenOrientation.init();
-          ScreenOrientation.lockOrientation('portrait-primary');
+        // Lock Screen Orientation to Portrait
+//        ScreenOrientation.init();
+//        ScreenOrientation.lockOrientation('portrait-primary');
 
-          // Initialize device motion montrol
-          DeviceMotion.init();
+        // Initialize device motion montrol
+        DeviceMotion.init();
 
-          // Start the actual game
-          Game.start();
-        };
+        // Start the actual game
+        Game.start();
+      };
 
       /* Initialize app when the window is loaded */
       // window.onload = initApp();

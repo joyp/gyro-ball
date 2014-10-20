@@ -8,39 +8,13 @@ forthcoming
 forthcoming
 
 ### Description
-forthcoming
-
-### Models
-```
-Model 1
-```
-
-```
-Model 2
-```
-
-### Database
-```
-Collecion 1
-```
-
-```
-Collection 2
-```
+forthcomin
 
 ### Features
 - [x] Node.js
 - [x] Angular.js
 - [x] Ionic
 - [x] Cordova
-- [ ] Feature 5
-- [ ] Feature 6
-
-### Running Tests
-```bash
-$ npm install
-$ npm test
-```
 
 ### Collaborators
 - [Melanie Fryman](https://github.com/mlfryman)
